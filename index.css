@@ -23,6 +23,7 @@ html,body{
 }
 
 
+
   /* FASHION */
 
   .f-add{
@@ -306,13 +307,11 @@ html,body{
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
+  
   
 }
-h-img{
-  width: 100px;
-  text-align: center;
-}
+
+
 
 
 
