@@ -310,6 +310,12 @@ html,body{
   
   
 }
+.h-img{
+  border-radius: 30px;
+  margin-top: 20px;
+  
+
+}
 
 
 
@@ -346,7 +352,13 @@ html,body{
     align-items: center;
     justify-content: center;
     padding: 10px;
+    color: #333;
+    transition: color 0.3s, transform 0.3s;
   }
+  .hoodies-head:hover {
+    color: rgba(255, 0, 0, 0.658); /* Change color on hover */
+    transform: scale(1.0); /* Slightly increase size on hover */
+}
   
   .h-card{
     display: flex;
@@ -356,7 +368,14 @@ html,body{
   }
   .h-img{
     width: 300px;
+    border-radius: 40px;
+    border: 4px solid transparent; /* Initial border */
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
   }
+  .h-img:hover {
+    border-color:black; /* Change border color on hover */
+}
 }
 
 /* login */
